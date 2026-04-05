@@ -1,9 +1,9 @@
 import express from "express";
 import dotenv from "dotenv";
-import connection from "./config/db.js";
-import authRouter from "./routes/auth.routes.js";
-import fileRouter from "./routes/file.routes.js";
-import adminRouter from "./routes/admin.routes.js";
+import connection from "./src/config/db.js";
+import authRouter from "./src/routes/auth.routes.js";
+import fileRouter from "./src/routes/file.routes.js";
+import adminRouter from "./src/routes/admin.routes.js";
 
 dotenv.config();
 const app = express();
